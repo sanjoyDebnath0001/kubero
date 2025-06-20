@@ -1,0 +1,7 @@
+. email: Stores the user's email,which must be unique and required. includes a basic regex
+ foremail format validation.
+
+. password: Store the hashed password.Required.
+. role: Defines the user's role .it's an enum that can only be one of the specified values('regular','accountant','admin'). Defaults to 'regular'.
+. createdat: Automatically records the timestamp when the user was created.
+. 
